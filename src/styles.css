@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+
+.App {
+font-family: 'RocknRoll One', sans-serif; 
+}
+
+ h2 {
+  text-align: center;
+    margin: 25px;
+}
+
+
+
+
+.card-user {
+  display: flex; 
+  border : 3px solid black;
+  border-radius: 1.3rem;
+  margin : 10px;
+  width:48%;
+
+}
+
+.card-user h1 {
+  font-size : 1.2em;
+}
+
+
+.user-Name {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding : 2vw;
+  border-right: 1px solid black;
+  margin: 10px;
+            
+}
+
+.user-Name h1 {
+  font-size: 1.3em;
+  padding: 5px;
+}
+
+
+.user-Information {
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  padding-top: 7px;
+
+}
+
+
+.user-Information span {
+    font-size: 0.8em;
+    padding: 5px;
+}
